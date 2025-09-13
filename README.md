@@ -200,4 +200,4 @@ to sensor use in FRC robots.
   - e.g. Using beam breaks so that we can both count game objects passing through a robot mechanism, but also trigger a light sensor when at the mid-point between beam breaks when color sensing would be most accurate
 
 # Previous Presentations and Information
-[Sensors for FRC - 2016 Alamo FIRST Conference and Workshops](https://github.com/2468shrm/RobotElectricalInfo/Sensors%20for%20FRC.pdf)
+[Sensors for FRC - 2016 Alamo FIRST Conference and Workshops](https://github.com/2468shrm/RobotElectricalInfo/blob/main/Sensors%20for%20FRC.pdf)
