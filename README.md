@@ -4,7 +4,7 @@ WHS robotics electrical team.  A place for presentations and general info relati
 to sensor use in FRC robots.
 
 # Sensor Types
-- Switch
+- Mechanical Switch / Limit Switch
   - Pressing the switch can indicate a physical condition
   - Uses:
     - Object detection: Game object touches switch when it is in a mechanism
@@ -24,6 +24,16 @@ to sensor use in FRC robots.
       - Typically, we connect NC and C so that the DIO input voltage is GND (0 V) and the switch reports False (GND) when not pressed, True when pressed
       - Alternatively, we connect NO and C so that the DIO input voltage is pulled up and the switch reports True when not pressed, False when pressed
     - [0.187" Female Quick Disconnect Spade Terminals](https://www.amazon.com/dp/B01N0M6PP1) makes for an easy and reliable connection to the switch's terminals
+
+- No-Contact Switches
+  - Magnetic Sitches that are not Hall Effect based
+  - The switch is typically normally open (NO)
+  - The magnetic field bends one contact into the other closing the circuit
+  - Example:
+    - [Reed Switch](https://www.amazon.com/Gebildet-Normally-Magnetic-Induction-Miniature/dp/B07YDH998K) resembles a resistor and has a delicate glass body that should be protected with some heat shrink tubing
+    - [SparkFun Reed Switch](https://www.sparkfun.com/reed-switch.html) 
+    - [SparkFun Reed Switch - Insulated](https://www.sparkfun.com/reed-switch-insulated.html) also resembles a resistor but the body is platic and more durable
+    - [Adafruit Magnetic Contact Switch](https://www.adafruit.com/product/375)
 
 - Hall Effect
   - Sensor used to detect magnetic field presence / strength
@@ -188,3 +198,6 @@ to sensor use in FRC robots.
 # Sensor Fusion
 - Some times we want to combine sensor functions
   - e.g. Using beam breaks so that we can both count game objects passing through a robot mechanism, but also trigger a light sensor when at the mid-point between beam breaks when color sensing would be most accurate
+
+# Previous Presentations and Information
+[Sensors for FRC - 2016 Alamo FIRST Conference and Workshops](https://github.com/2468shrm/RobotElectricalInfo/Sensors%20for%20FRC.pdf)
