@@ -1,3 +1,7 @@
+# Introduction
+This repository will contain the sensor related information for the training of the
+WHS robotics electrical team.  A place for presentations and general info relating
+to sensor use in FRC robots.
 
 # Sensor Types
 - Switch
